@@ -10,7 +10,7 @@ body {
 
 .header {
   height: 100vh;
-  background-image:linear-gradient(rgba(3,4,7,0.48),rgba(5,10,30,0.48)),url(https://github.com/jepery/Resume-Exercise/blob/main/images/Pic.jpg?raw=true);
+  background-image:linear-gradient(rgba(3,4,7,0.48),rgba(5,10,30,0.48)),url(https://github.com/jepery/My-Portfolio/blob/main/images/Image20230220203632.png?raw=true);
   background-size: cover;
   background-position: center;
 
@@ -32,4 +32,29 @@ nav{
     display: flex;
     align-items: center;
     justify-content: space-between;
+    padding: 3% 7%;
+}
+
+nav ul li{
+    display: inline-block;
+    margin: 10px 20px;
+}
+
+nav ul li a{
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.header-text{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+    text-align: center;
+}
+
+.header-text h1{
+    font-size: 90px;
 }
