@@ -1,9 +1,17 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-body{
-    font-family: 'Oswald', sans-serif;
+body {
+  font-family: "Oswald", sans-serif;
+}
+
+.header {
+  height: 100vh;
+  background-image:linear-gradient(rgba(3,4,7,0.48),rgba(5,10,30,0.48)),url(https://raw.githubusercontent.com/KodeGo-Bootcamp/HTML-Activity-Images/f8f9497a98828da54de61a36bce3f1b7c6a80b8e/pexels-royal-anwar-450213.jpg);
+  background-size: cover;
+  background-position: center;
+
 }
