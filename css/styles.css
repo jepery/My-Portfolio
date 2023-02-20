@@ -10,8 +10,26 @@ body {
 
 .header {
   height: 100vh;
-  background-image:linear-gradient(rgba(3,4,7,0.48),rgba(5,10,30,0.48)),url(https://raw.githubusercontent.com/KodeGo-Bootcamp/HTML-Activity-Images/f8f9497a98828da54de61a36bce3f1b7c6a80b8e/pexels-royal-anwar-450213.jpg);
+  background-image:linear-gradient(rgba(3,4,7,0.48),rgba(5,10,30,0.48)),url(https://github.com/jepery/Resume-Exercise/blob/main/images/Pic.jpg?raw=true);
   background-size: cover;
   background-position: center;
 
+}
+
+.header-brand{
+    color: #fff;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 45px;
+}
+
+.header-brand__span{
+    color: #20e700;
+
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
