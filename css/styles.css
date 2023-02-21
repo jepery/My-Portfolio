@@ -10,7 +10,7 @@ body {
 
 .header {
   height: 100vh;
-  background-image:linear-gradient(rgba(3,4,7,0.48),rgba(5,10,30,0.48)),url(https://github.com/jepery/My-Portfolio/blob/main/images/heroimage.png?raw=true);
+  background-image:url(https://github.com/jepery/My-Portfolio/blob/main/images/peach.png?raw=true);
   background-size: cover;
   background-position: center;
 
@@ -24,12 +24,12 @@ body {
 }
 
 .header-brand__span{
-    color: #006ce7;
+    color: #e7a900;
 
 }
 
 nav{
-    background-color: rgba(22, 22, 22, 0.384);
+    background-color: rgba(155, 134, 90, 0.384);
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -52,24 +52,57 @@ nav ul li a{
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    color: #fff;
+    color: #0e0d0d;
     text-align: center;
 }
 
 .header-text h1{
-    font-size: 90px;
+    font-size: 70px;
 }
 
 .about{
-    background-color: #145363;
+    background-color: #f0cd84;
     height: 80vh;
     
 }
 
 .about-text{
-    background-color: rgb(38, 142, 190);
-    color: #fff;
+    /* background-color: rgb(38, 142, 190); */
+    color: #0e0d0d;
     margin: auto;
     text-align: center;
     width: 50%;
+}
+
+.about-text h2{
+    font-size: 60px;
+    /* background-color: bisque; */
+    padding-top: 6rem;
+}
+
+.about-text p{
+    padding-top: 2rem;
+    line-height: 1.8rem;
+    text-align: center;
+}
+
+.about-skills{
+    display: flex;
+    width: 50%;
+    color: #0e0d0d;
+    flex-direction: row;
+    margin: auto;
+    padding-top: 3%;
+    justify-content: center;
+}
+
+.about-skills h3{
+    padding-right: 5%;
+
+}
+
+.about-skills__h3--1{
+    border-bottom: 3px solid black;
+    width: 5%;
+    margin-right: 50px;
 }
