@@ -161,7 +161,7 @@ nav ul li a {
 .contact {
   background-color: #f0cd84;
   height: 100vh;
-  margin-top: 300px;
+  margin-top: 0px;
   padding: 5%;
 }
 
@@ -175,7 +175,7 @@ nav ul li a {
 }
 
 .contact-left {
-  flex-basis: 35px;
+  flex-basis: 35%;
 }
 
 .contact-left p {
@@ -220,7 +220,7 @@ nav ul li a {
 }
 
 .contact-right {
-  flex-basis: 50%;
+  flex-basis: 65%;
 }
 
 .contact-right form {
