@@ -252,3 +252,14 @@ form textarea {
   cursor: pointer;
   color: #000000;
 }
+
+footer{
+    height: 15vh;
+    width: 100%;
+    text-align: center;
+    padding: 3% 0;
+    background-color: black;
+    font-weight: 300;
+    color: #fff;
+
+}
