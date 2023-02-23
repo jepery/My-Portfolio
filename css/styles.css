@@ -172,6 +172,8 @@ nav ul li a {
 
 .contact h2 {
   font-size: 60px;
+  color: #fff;
+  text-shadow: 2px 2px 4px #000000;
 }
 
 .contact-left {
