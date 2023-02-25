@@ -265,3 +265,38 @@ footer{
     color: #fff;
 
 }
+
+/*------------MEDIA QUERIES-------------*/
+
+
+
+/*------------HERO SECTION-------------*/
+
+@media only screen and (max-width: 600px){
+
+    .header{
+      background-image: none;
+      background-color: #e7a900;
+    }
+
+    .profile-img{
+      display: block;
+      object-fit: cover;
+      position: absolute;
+      height: 200px;
+      width: 200px;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+    }
+
+}
+
+/*------------ABOUT SECTION-------------*/
+
+
+
+/*------------PORTFOLIO SECTION-------------*/
+
+
+/*------------CONTACT SECTION-------------*/
