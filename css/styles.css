@@ -70,6 +70,10 @@ nav ul li a {
   height: 80vh;
 }
 
+.about-img {
+  display: none;
+}
+
 .about-text {
   /* background-color: rgb(38, 142, 190); */
   color: #000000;
@@ -112,6 +116,7 @@ nav ul li a {
   width: 5%;
   margin-right: 50px;
 }
+
 
 .portfolio {
   height: 100vh;
@@ -255,14 +260,14 @@ form textarea {
   color: #000000;
 }
 
-footer{
-    height: 15vh;
-    width: 100%;
-    text-align: center;
-    padding: 3% 0;
-    background-color: black;
-    font-weight: 300;
-    color: #fff;
+footer {
+  height: 15vh;
+  width: 100%;
+  text-align: center;
+  padding: 3% 0;
+  background-color: black;
+  font-weight: 300;
+  color: #fff;
 
 }
 
@@ -272,29 +277,102 @@ footer{
 
 /*------------HERO SECTION-------------*/
 
-@media only screen and (max-width: 600px){
+@media only screen and (max-width: 600px) {
 
-    .header{
-      background-image: none;
-      background-color: #e7a900;
-    }
+  .header {
+    background-image: none;
+    background-color: #e7a900;
+  }
 
-    .profile-img{
-      display: block;
-      object-fit: cover;
-      position: absolute;
-      height: 200px;
-      width: 200px;
-      top: 50%;
-      left: 50%;
-      transform: translate(-50%, -50%);
-    }
+  .profile-img {
+    display: block;
+    object-fit: cover;
+    position: absolute;
+    height: 200px;
+    width: 200px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
 
 }
 
 /*------------ABOUT SECTION-------------*/
 
+@media only screen and (max-width: 600px) {
+  .about {
+    padding-top: 10%;
+    height: 150vh;
 
+  }
+
+  .about-img {
+    display: block;
+    text-align: center;
+    padding: 0 3% 5% 0;
+  }
+
+  .about-img img {
+    height: 257px;
+    width: 200px;
+    border-radius: 10px;
+  }
+
+  .about-img img:hover {
+    transform: translate(-5px, -10px);
+    cursor: pointer;
+    box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+  }
+
+  /* .about-text {
+    
+    color: #000000;
+    margin: auto;
+    text-align: center;
+    width: 50%;
+  } */
+
+  /*
+  
+  
+  
+  .about-text h2 {
+    font-size: 60px;
+    
+    padding-top: 6rem;
+    color: #fff;
+    text-shadow: 2px 2px 4px #000000;
+  }
+  
+  .about-text p {
+    padding-top: 2rem;
+    line-height: 1.8rem;
+    text-align: center;
+    color: #000000;
+  }
+  
+  .about-skills {
+    display: flex;
+    width: 50%;
+    color: #000000;
+    flex-direction: row;
+    margin: auto;
+    padding-top: 3%;
+    justify-content: center;
+  }
+  
+  .about-skills h3 {
+    padding-right: 5%;
+  }
+  
+  .about-skills__h3--1 {
+    border-bottom: 3px solid black;
+    width: 5%;
+    margin-right: 50px;
+  }*/
+}
 
 /*------------PORTFOLIO SECTION-------------*/
 
