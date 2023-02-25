@@ -326,6 +326,33 @@ footer {
     -moz-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
   }
 
+  .about-text {
+    width: 80%;
+  }
+
+  .about-text h2 {
+    font-size: 50px;
+    padding-top: 1%;
+  }
+
+  .about-text p {
+    text-align: left;
+  }
+
+  .about__content {
+    color: #000000;
+
+  }
+
+  .about__content p {
+    margin: 5% auto;
+    margin-left: 10%;
+  }
+
+  .content__para--1 {
+    color: brown;
+  }
+
   /* .about-text {
     
     color: #000000;
@@ -375,6 +402,21 @@ footer {
 }
 
 /*------------PORTFOLIO SECTION-------------*/
+@media only screen and (max-width: 600px) {
+  .portfolio{
+    height: 180vh;
+  }
 
+  .portfolio__img img{
+    width: 70%;
+    height: 280px;
+    margin: 0 auto;
+    margin-bottom: 3%;
+  }
+
+  .portfolio__btn{
+    font-size: 4rem;
+  }
+}
 
 /*------------CONTACT SECTION-------------*/
